@@ -16,6 +16,7 @@ Python Version: 3.9.13
 Create and activate new environment called "venv"
 
 ```bash
+cd server
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -28,7 +29,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 
-### Flaks server side
+### Flask server side
 
 ```bash
 cd server
