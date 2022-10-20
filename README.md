@@ -55,3 +55,5 @@ Then you will see the flaks web server running in the terminal.
 7. Build and run the program.
 
 ### Demo
+
+<video src="/Users/madmax/Mbed Programs/hw2/docs/full_demo.mp4"></video>
