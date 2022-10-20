@@ -340,7 +340,7 @@ int main() {
 
         sprintf(buffer,
                 "GET /sensors?temp=%.2f&humid=%.2f&pressure=%.2f&mx=%d&my=%d&mz=%d&gx=%.2f&gy=%.2f&gz=%.2f&ax=%d&ay=%d&az=%d HTTP/1.1\r\n"
-                "Host: 192.168.10.47:8080\r\n"
+                "Host: %s:8080\r\n"
                 "\r\n",
                 temp_value,
                 humid_value,
@@ -353,7 +353,8 @@ int main() {
                 pGyroDataXYZ[2],
                 accelero_data[0],
                 accelero_data[1],
-                accelero_data[2]
+                accelero_data[2],
+                MBED_CONF_APP_HOSTNAME
                 );
 
         if(!example->send_http_request()){
