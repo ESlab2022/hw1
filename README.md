@@ -56,4 +56,6 @@ Then you will see the flaks web server running in the terminal.
 
 ### Demo
 
-<video src="docs/full_demo.mp4"></video>
+https://user-images.githubusercontent.com/55420821/197130809-a0778aa4-249a-4eca-8bbd-235bc80d17ac.mp4
+
+
