@@ -1,4 +1,4 @@
-# hw2 socket communication
+# HW2 Socket Communication
 
 ## Installation
 
@@ -56,4 +56,4 @@ Then you will see the flaks web server running in the terminal.
 
 ### Demo
 
-<video src="/Users/madmax/Mbed Programs/hw2/docs/full_demo.mp4"></video>
+<video src="docs/full_demo.mp4"></video>
